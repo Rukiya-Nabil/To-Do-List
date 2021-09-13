@@ -19,7 +19,7 @@
   	      $activity = trim(strip_tags($_POST['activity']));
         }
 
-        else{ // if the field id empty
+        else{ // if the field is empty
    	      print ' <div  class="alert alert-warning">
                   <div>
                   <p> Please make sure you entered the task that you want to do !</p>
